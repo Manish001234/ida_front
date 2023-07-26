@@ -3,15 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Register from './features/Authentication/register'
-import Allroutes from './Allroutes/Allroutes'
+
+import Home from './pages/Home'
+import Ideaform from './pages/idea-form'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Register/>
-      <Allroutes/>
+   <Ideaform/>
     </>
   )
 }
